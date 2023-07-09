@@ -25,15 +25,10 @@
   object-fit: contain;
   max-width: 65%;
   max-height: 90%;
-  /* width: auto;
-  height: auto; */
 
   margin-top: 20px;
   margin-left: 50px;
-  /*
-  align-items: center;
-  justify-content: center;
-  justify-items: center; */
+
   border-radius: 15px;
 }
 .card-bg:hover {
@@ -67,16 +62,16 @@
 }
 
 /*--------------------------------------------------------------
-# Constructions Section
+# books-stand Section
 --------------------------------------------------------------*/
-.constructions .card-item {
+.books-stand .card-item {
   border: 1px solid gray; /*  rgba(82, 86, 94, 0.2); */
   background: #4748485f; /* #fff */
   position: relative;
   border-radius: 15px; /* 0 */
 }
 
-.constructions .card-item .card-bg {
+.books-stand .card-item .card-bg {
   min-height: 300px;/* 300px */
   background-size: cover;
   background-position: center;
@@ -86,24 +81,24 @@
   
 }
 
-.constructions .card-item .card-body {
+.books-stand .card-item .card-body {
   padding: 10px; /* 30px */
 }
 
-/* .constructions .card-item h4 {
+/* .books-stand .card-item h4 {
   /* font-weight: 1rem; 
   font-size: 7px;
   margin-bottom: 5px;
   color: var(--color-secondary);
 }
-.constructions .card-item h5 {
+.books-stand .card-item h5 {
   /* font-weight: 1rem; 
   font-size: 6px;
   margin-bottom: 5px;
   color: var(--color-secondary);
 }
 
-.constructions .card-item p {
+.books-stand .card-item p {
   color: var(--color-secondary);
   margin: 0;
 }
@@ -133,7 +128,7 @@ Social Links - Footer
 }
 
 .footer .footer-content .social-links a:hover {
-  background: whitesmoke /* var(--color-primary); */
+  background: whitesmoke; /* var(--color-primary); */
   text-decoration: none;
 }
 
@@ -175,6 +170,7 @@ Social Links - Footer
     height: 350px;
   }
 }
+
 &:before {
   content: '';
   position: absolute;
@@ -189,12 +185,6 @@ Social Links - Footer
   pointer-events: none;
 }
 /*------------------------*/
-
-/*
-.d-flex{
-    justify-content: center;
-}
-*/
 
 .testimonials .testimonial-item{
     border-radius: 20px;
@@ -212,31 +202,6 @@ Social Links - Footer
     width: 90%;
     height: auto;
 }
-/* .profile .btn-price{
-  position: relative;
-  top: -20px;
-  width: 100px;
-  
-  /* width: fit-content; 
-  
-
-  padding: 10px 10px;
-
-  /* background-size: 30px; 
-  background-color: gray;/* #161718; 
-  border-radius: 20px;
-} */
-/*
-.testimonials .testimonial-item h3 .btn-price{
-  font-size: 18px;
-  font-weight: bold;
-  /* margin: 10px 0 5px 0; 
-  color: #fff;
-
-  padding: 10px 10px;
-  background-color: gray;
-}
-*/
 
 /*--------------------------------------------------------------
 # bg-ligth section
@@ -256,55 +221,6 @@ Social Links - Footer
 }
 .bg-light::after {
     opacity: 1;
-}
-
-/*--------------------------------------------------------------
-# owlcarousel section
---------------------------------------------------------------*/
-/*.owl-carousel {
-  display:none;
-  width:100%;
-  z-index:1
-}
-
-/*--------------------------------------------------------------
-# price-carousel section
---------------------------------------------------------------*/
-/*
-.price-carousel .owl-nav {
-  position: absolute;
-  width: calc(100% + 45px);
-  height: 45px;
-  top: calc(50% - 22.5px);
-  left: -22.5px;
-  display: flex;
-  justify-content: space-between;
-  opacity: 0;
-  transition: .5s;
-}
-
-.price-carousel:hover .owl-nav {
-  opacity: 1;
-}
-
-.price-carousel .owl-nav .owl-prev,
-.price-carousel .owl-nav .owl-next {
-  position: relative;
-  width: 45px;
-  height: 45px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #FFFFFF;
-  background: var(--primary);
-  border-radius: 2px;
-  font-size: 22px;
-  transition: .5s;
-}
-
-.price-carousel .owl-nav .owl-prev:hover,
-.price-carousel .owl-nav .owl-next:hover {
-  background: var(--secondary);
 }
 
 /*--------------------------------------------------------------
@@ -464,9 +380,9 @@ font-size: 28px; }
 }
 
 /*--------------------------------------------------------------
-# Breadcrumbs
+# divisor-c-imagen
 --------------------------------------------------------------*/
-.breadcrumbs {
+.divisor-c-imagen {
     padding: 140px 0 60px 0;
     min-height: 30vh;
     position: relative;
@@ -475,21 +391,21 @@ font-size: 28px; }
     background-repeat: no-repeat;
   }
   
-  .breadcrumbs:before {
+  .divisor-c-imagen:before {
     content: "";
     background-color: rgba(27, 47, 69, 0.7);
     position: absolute;
     inset: 0;
   }
   
-  .breadcrumbs h2 {
+  .divisor-c-imagen h2 {
     font-size: 56px;
     font-weight: 500;
     color: #fff;
     font-family: var(--font-secondary);
   }
   
-  .breadcrumbs ol {
+  .divisor-c-imagen ol {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -500,20 +416,20 @@ font-size: 28px; }
     color: var(--color-primary);
   }
   
-  .breadcrumbs ol a {
+  .divisor-c-imagen ol a {
     color: rgba(255, 255, 255, 0.8);
     transition: 0.3s;
   }
   
-  .breadcrumbs ol a:hover {
+  .divisor-c-imagen ol a:hover {
     text-decoration: underline;
   }
   
-  .breadcrumbs ol li+li {
+  .divisor-c-imagen ol li+li {
     padding-left: 10px;
   }
   
-  .breadcrumbs ol li+li::before {
+  .divisor-c-imagen ol li+li::before {
     display: inline-block;
     padding-right: 10px;
     color: #fff;
