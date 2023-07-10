@@ -85,6 +85,28 @@
   padding: 10px; /* 30px */
 }
 
+@media (max-width: 768px) {
+  .books-stand .row{
+    margin-left: 27px;
+  }
+  .books-stand .card-item {
+    width: 285px;
+    align-items: center;
+    justify-items: center;
+  } 
+}
+/*
+@media (max-width: 991px) {
+  .books-stand .row{
+    margin-left: 27px;
+  }
+  .books-stand .card-item {
+    width: 285px;
+    align-items: center;
+    justify-items: center;
+  } 
+} */
+
 /* .books-stand .card-item h4 {
   /* font-weight: 1rem; 
   font-size: 7px;
@@ -103,6 +125,7 @@
   margin: 0;
 }
 */
+
 /*--------------------------------------------------------------
 # Contact Section - adicional
 --------------------------------------------------------------*/
@@ -138,6 +161,7 @@ Social Links - Footer
 .card:hover .poster img{
   transform: scale(1.1);
 }
+
 .details {
   position: absolute;
   bottom: -100%;
@@ -253,7 +277,8 @@ Social Links - Footer
 }
 @media (max-width: 767.98px) {
     .heading-section h2 {
-font-size: 28px; } 
+      font-size: 28px; 
+    } 
 }
   
 .heading-section.heading-section-white .subheading {
@@ -274,7 +299,7 @@ font-size: 28px; }
 /*--------------------------------------------------------------
 # row
 --------------------------------------------------------------*/
-.row {
+/* .row {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -284,6 +309,14 @@ font-size: 28px; }
     margin-left: -15px;
     margin-top: 60px;
     margin-bottom: 50px;
+} */
+.team .row {
+  margin-top: 50px;
+  margin-bottom: none;
+}
+.team .row .staff{
+  margin-top: none;
+  margin-bottom: 50px;
 }
 
 .contact div .row {
