@@ -275,33 +275,33 @@ th, td {
   th, td {
     font-size: 100%;
   }
+}
+/*----- iPhone 8+ ------*/
+@media (max-width: 415px) {
 
-  /*----- iPhone 8+ ------*/
-  @media (max-width: 415px) {
-
-    #tableNovedades,
-    #tablePremiados, 
-    #tableColeccion {
-      margin-left: 10%;
-    }
-    td img {
-      width: 80px; 
-      border-radius: 10px;
-    }
-    th, td {
-      font-size: 80%;
-    }
+  #tableNovedades,
+  #tablePremiados, 
+  #tableColeccion {
+    margin-left: 5%;
   }
-
-  /*----- iPhone 8 ------*/
-  @media (max-width: 375px) {
-    #tableNovedades,
-    #tablePremiados, 
-    #tableColeccion {
-      margin-left: 7%;
-    }
+  td img {
+    width: 80px; 
+    border-radius: 5px;
   }
-} 
+  th, td {
+    font-size: 80%;
+  }
+}
+
+/*----- iPhone 8 ------*/
+@media (max-width: 375px) {
+  #tableNovedades,
+  #tablePremiados, 
+  #tableColeccion {
+    margin-left: 5%;
+  }
+}
+
 
 
 /*----- iPhone 8/8+ ------
