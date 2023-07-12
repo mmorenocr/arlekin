@@ -139,9 +139,151 @@ ul {
     align-items: center;
     justify-items: center;
   } 
-
-
 }
+
+/*-------- table book-stand -------*/
+/* section #table-books {
+  box-sizing: border-box;
+} */
+
+#myInput {
+  /* background-image: url('../../ea_img/search_icon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat; */
+  width: 300px;
+  font-size: 16px;
+  align-self: center;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+.page-header .form-control {
+  display: inline-block;
+  opacity: 75%;
+}
+
+.page-header .form-group .bi-search {
+  translate: 40px;
+  color: gainsboro;
+  margin-right: -33px;
+  z-index: auto;
+  
+}
+
+#tableNovedades,
+#tablePremiados, 
+#tableColeccion {
+  box-sizing: content-box;
+  border-collapse: collapse;
+  width: 80%;
+
+  margin-top: 80px;
+  margin-bottom: 80px;
+  /* margin-right: 150px; */
+  margin-left: 10%;
+
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+#tableNovedades th,
+#tablePremiados th, 
+#tableColeccion th {
+  text-align: left;
+  padding: 12px;
+}
+  
+#tableNovedades td,
+#tablePremiados td, 
+#tableColeccion td {
+  text-align: left;
+  padding: 12px;
+}
+
+#tableNovedades tr,
+#tablePremiados tr, 
+#tableColeccion tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#tableNovedades tr.header,
+#tablePremiados tr.header, 
+#tableColeccion tr.header {
+  background-color: rgb(32, 32, 32);
+}
+  
+#tableNovedades tr:hover,
+#tablePremiados tr:hover, 
+#tableColeccion tr:hover {
+  background-color: rgb(52, 52, 52);
+}
+
+td img {
+    width: 150px; 
+    border-radius: 10px;
+}
+
+td .book-img{
+  padding: none; /* 0 10% 0 10%; */
+}
+
+td .book-img img:hover {
+  cursor: zoom-in;
+  opacity: 50%;
+  border: 1px gray;
+  box-shadow: 0px 0px 25px gray;
+}
+
+td .book-img img:focus,
+td .book-img img:active  {
+  opacity: 100%;
+  box-shadow: none;
+  translate: 32vmax 0;
+  transition: 0.5s ease-in-out;
+  transform: scale(2.5);
+  position: relative;
+  z-index: 10000;
+}
+
+th, td {
+  font-size: 60%;
+}
+
+
+@media (max-width: 768px) {
+  #tableNovedades,
+  #tablePremiados, 
+  #tableColeccion {
+    .hide-resp {
+      display: none!important;
+    }
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 12px;
+  }
+
+  /* td .book-img img:hover {
+    cursor: zoom-in;
+    opacity: 50%;
+    border: 1px gray;
+    box-shadow: 0px 0px 25px gray;
+  } */
+
+  td .book-img img:focus,
+  td .book-img img:active  {
+    cursor: zoom-in;
+    translate: 30vmin 0;
+    transform: scale(2);
+    /* position: relative; */
+  }
+
+  th, td {
+    font-size: 100%;
+  }
+}
+
+
 /*
 @media (max-width: 991px) {
   .books-stand .row{
