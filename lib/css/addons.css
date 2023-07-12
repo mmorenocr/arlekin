@@ -176,12 +176,12 @@ ul {
 #tableColeccion {
   box-sizing: content-box;
   border-collapse: collapse;
-  width: 80%;
+  width: 90%;
 
   margin-top: 80px;
   margin-bottom: 80px;
   /* margin-right: 150px; */
-  margin-left: 10%;
+  margin-left: 5%;
 
   border: 1px solid #ddd;
   font-size: 16px;
@@ -247,10 +247,10 @@ td .book-img img:active  {
 }
 
 th, td {
-  font-size: 60%;
+  font-size: 95%;
 }
 
-
+/*------ tablets -----*/
 @media (max-width: 768px) {
   #tableNovedades,
   #tablePremiados, 
@@ -262,6 +262,61 @@ th, td {
     margin-bottom: 40px;
     font-size: 12px;
   }
+  td .book-img img:hover
+  td .book-img img:focus,
+  td .book-img img:active  {
+    cursor: none;
+    translate: none;
+    transform: none;
+    opacity: none;
+    border: none;
+    box-shadow: none;
+  }
+  th, td {
+    font-size: 100%;
+  }
+
+  /*----- iPhone 8+ ------*/
+  @media (max-width: 415px) {
+
+    #tableNovedades,
+    #tablePremiados, 
+    #tableColeccion {
+      margin-left: 10%;
+    }
+    td img {
+      width: 80px; 
+      border-radius: 10px;
+    }
+    th, td {
+      font-size: 80%;
+    }
+  }
+
+  /*----- iPhone 8 ------*/
+  @media (max-width: 375px) {
+    #tableNovedades,
+    #tablePremiados, 
+    #tableColeccion {
+      margin-left: 7%;
+    }
+  }
+} 
+
+
+/*----- iPhone 8/8+ ------
+@media (max-width: 375px) {
+  #tableNovedades,
+  #tablePremiados, 
+  #tableColeccion {
+    .hide-resp {
+      display: none!important;
+    }
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 12px;
+    margin-left: 7%;
+  }
 
   /* td .book-img img:hover {
     cursor: zoom-in;
@@ -269,21 +324,24 @@ th, td {
     border: 1px gray;
     box-shadow: 0px 0px 25px gray;
   } */
-
+/*
+  td img {
+    width: 80px; 
+    border-radius: 10px;
+}
   td .book-img img:focus,
   td .book-img img:active  {
-    cursor: zoom-in;
-    translate: 30vmin 0;
-    transform: scale(2);
-    /* position: relative; */
+    cursor: none;
+    translate: none;
+    transform: none;
+    /* position: relative; *
   }
 
   th, td {
-    font-size: 100%;
+    font-size: 80%;
   }
 }
-
-
+*/
 /*
 @media (max-width: 991px) {
   .books-stand .row{
